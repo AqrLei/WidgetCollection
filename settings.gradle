@@ -1,0 +1,3 @@
+include ':widgetcollection'
+include ':app'
+rootProject.name = "WidgetCollection"

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ScrollPickerView">
+        <attr name="item_offset" format="integer" />
+        <attr name="item_text_size" format="dimension" />
+        <attr name="item_hint_text_size" format="dimension" />
+        <attr name="item_horizontal_padding" format="dimension" />
+        <attr name="item_vertical_padding" format="dimension" />
+        <attr name="item_padding" format="dimension" />
+        <attr name="divider_height" format="dimension" />
+        <attr name="item_selected_color" format="color" />
+        <attr name="item_hint_color" format="color" />
+        <attr name="divider_color" format="color" />
+        <attr name="divider_offset_factor" format="fraction" />
+    </declare-styleable>
+    <declare-styleable name="AutoDragLayout">
+        <attr name="stickToEdge" format="boolean" />
+        <attr name="positionXOffsetRatio" format="float" />
+        <attr name="positionYOffsetRatio" format="float" />
+
+    </declare-styleable>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="riv_roundAsCircle" format="boolean" />
+        <attr name="riv_topLeftCorner" format="dimension|reference" />
+        <attr name="riv_topRightCorner" format="dimension|reference" />
+        <attr name="riv_bottomLeftCorner" format="dimension|reference" />
+        <attr name="riv_bottomRightCorner" format="dimension|reference" />
+        <attr name="riv_roundedCornerRadius" format="dimension|reference" />
+        <attr name="riv_borderWidth" format="dimension|reference" />
+        <attr name="riv_borderColor" format="color|reference" />
+        <attr name="riv_dashWidth" format="dimension|reference" />
+        <attr name="riv_dashGap" format="dimension|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ShadowLayout">
+        <attr name="shadowLeftTopCornerRadius" format="dimension" />
+        <attr name="shadowRightTopCornerRadius" format="dimension" />
+        <attr name="shadowRightBottomCornerRadius" format="dimension" />
+        <attr name="shadowLeftBottomCornerRadius" format="dimension" />
+        <attr name="shadowCornerRadius" format="dimension" />
+        <attr name="shadowSpreadRadius" format="dimension" />
+        <attr name="shadowBackground" format="color|reference" />
+        <attr name="shadowColor" format="color" />
+        <attr name="shadowOffsetX" format="dimension" />
+        <attr name="shadowOffsetY" format="dimension" />
+        <attr name="shadowLeftShow" format="boolean" />
+        <attr name="shadowTopShow" format="boolean" />
+        <attr name="shadowRightShow" format="boolean" />
+        <attr name="shadowBottomShow" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SmoothSlideLayout">
+        <attr name="scroll_direction" format="enum">
+            <enum name="left" value="0" />
+            <enum name="top" value="1" />
+            <enum name="right" value="2" />
+            <enum name="bottom" value="3" />
+        </attr>
+        <attr name="scroll_duration" format="integer" />
+        <attr name="scroll_keep_size" format="dimension" />
+        <attr name="scroll_alpha_change_enable" format="boolean" />
+        <attr name="scroll_alpha_to_shrink" format="float" />
+        <attr name="scroll_alpha_to_expand" format="float" />
+
+    </declare-styleable>
+</resources>
