@@ -46,7 +46,7 @@ ext {
             litenet         : "com.aqrlei.lib:litenet:1.0.0",
             bannerview      : "com.aqrlei.lib:bannerview:1.0.0",
             utilcollection  : "com.aqrlei.lib:utilcollection:1.0.0",
-            widgetcollection: "com.aqrlei.lib:widgetcollection:1.0.0",
+            widgetcollection: "com.aqrlei.lib:widgetcollection:1.0.2",
     ]
 
     bintray = [
