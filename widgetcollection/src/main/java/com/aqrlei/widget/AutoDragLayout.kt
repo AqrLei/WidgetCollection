@@ -1,4 +1,4 @@
-package com.aqrlei.widgetcollection
+package com.aqrlei.widget
 
 import android.animation.ValueAnimator
 import android.content.Context
@@ -9,7 +9,7 @@ import android.view.ViewConfiguration
 import android.view.ViewGroup
 import android.view.animation.AccelerateDecelerateInterpolator
 import androidx.constraintlayout.widget.ConstraintLayout
-import com.aqrlei.widgetcollection.BuildConfig.logger
+import com.aqrlei.widget.BuildConfig.logger
 import kotlin.math.*
 
 /**

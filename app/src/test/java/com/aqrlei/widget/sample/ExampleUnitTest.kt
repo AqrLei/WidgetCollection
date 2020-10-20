@@ -1,4 +1,4 @@
-package com.aqrlei.widgetcollection.sample
+package com.aqrlei.widget.sample
 
 import org.junit.Test
 

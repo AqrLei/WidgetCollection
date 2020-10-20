@@ -1,4 +1,4 @@
-package com.aqrlei.widgetcollection
+package com.aqrlei.widget
 
 import android.app.Activity
 import android.content.Context

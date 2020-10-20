@@ -1,4 +1,4 @@
-package com.aqrlei.widgetcollection.text
+package com.aqrlei.widget.text
 
 import android.graphics.Canvas
 import android.graphics.Color

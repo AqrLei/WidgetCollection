@@ -1,4 +1,4 @@
-package com.aqrlei.widgetcollection.sample
+package com.aqrlei.widget.sample
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

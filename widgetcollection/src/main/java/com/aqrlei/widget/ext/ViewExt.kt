@@ -1,4 +1,4 @@
-package com.aqrlei.widgetcollection.ext
+package com.aqrlei.widget.ext
 
 import android.view.View
 
